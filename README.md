@@ -12,7 +12,7 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 ### Links
 
-- Live Site URL: [(https://karimaoulallay.github.io/url-shortening/)]
+- Live Site URL: [https://karimaoulallay.github.io/Url-shortening/]
 
 ### Built with
 
