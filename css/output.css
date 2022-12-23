@@ -778,22 +778,6 @@ html {
   background-color: hsl(260 8% 14% / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/images\/bg-shorten-mobile\.svg\'\)\] {
-  background-image: url('/images/bg-shorten-mobile.svg');
-}
-
-.bg-\[url\(\'\/images\/bg-boost-mobile\.svg\'\)\] {
-  background-image: url('/images/bg-boost-mobile.svg');
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
 .fill-neutral {
   fill: white;
 }
@@ -1056,6 +1040,40 @@ html {
   }
 }
 
+/* blob background */
+
+/* form */
+
+#url-input form {
+  background-image: url("../images/bg-shorten-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (width < 768px) {
+  #url-input form {
+    background-image: url("../images/bg-shorten-mobile.svg");
+    background-size: contain;
+    background-position: right top;
+  }
+}
+
+/* get started */
+
+#get-started {
+  background-image: url("../images/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (width < 768px) {
+  #get-started {
+    background-image: url("../images/bg-boost-mobile.svg");
+    background-size: contain;
+    background-position: right top;
+  }
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
@@ -1219,14 +1237,6 @@ html {
 
   .md\:bg-transparent {
     background-color: transparent;
-  }
-
-  .md\:bg-\[url\(\'\/images\/bg-shorten-desktop\.svg\'\)\] {
-    background-image: url('/images/bg-shorten-desktop.svg');
-  }
-
-  .md\:bg-\[url\(\'\/images\/bg-boost-desktop\.svg\'\)\] {
-    background-image: url('/images/bg-boost-desktop.svg');
   }
 
   .md\:p-0 {
