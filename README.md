@@ -8,7 +8,7 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 ### Screenshot
 
-![](./images/Screenshot/URL_shortening.png)
+![](./images/Screenshot_URL_shortening.png)
 
 ### Links
 
