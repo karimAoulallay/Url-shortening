@@ -21,6 +21,9 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 - CSS Grid
 - Mobile-first workflow
 - TailwindCss
+- Session storage
+- Url shortener api
+- DOM
 
 ### What I learned
 
